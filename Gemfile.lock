@@ -3,13 +3,13 @@ PATH
   specs:
     rails_redis_cache (0.0.4)
       activesupport (~> 3.0.0)
-      redis (~> 2.0.0)
+      redis (>= 2.2.2)
 
 GEM
   remote: http://rubygems.org/
   specs:
     activesupport (3.0.1)
-    redis (2.0.12)
+    redis (=> 2.2.2)
 
 PLATFORMS
   ruby
@@ -17,4 +17,4 @@ PLATFORMS
 DEPENDENCIES
   activesupport (~> 3.0.0)
   rails_redis_cache!
-  redis (~> 2.0.0)
+  redis (>= 2.2.2)
