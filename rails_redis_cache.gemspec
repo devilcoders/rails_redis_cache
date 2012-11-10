@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
   s.name        = "rails_redis_cache"
   s.version     = RailsRedisCache::VERSION
   s.platform    = Gem::Platform::RUBY
-  s.authors     = ['Peter Schröder']
+  s.authors     = ['Peter Schroder']
   s.email       = ['phoetmail@googlemail.com']
   s.homepage    = 'http://github.com/phoet/rails_redis_cache'
   s.summary     = 'Simple interface to AWS Lookup, Search and Cart operations.'
