@@ -8,7 +8,7 @@ module ActiveSupport
 
     # RailsRedisCache is Rails 3 cache store implementation using the key value store Redis.
     #
-    # Author::    Peter Schröder  (mailto:phoetmail@googlemail.com)
+    # Author::    Peter Schroder  (mailto:phoetmail@googlemail.com)
     #
     # ==Usage
     #
