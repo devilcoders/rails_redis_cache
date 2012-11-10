@@ -1,10 +1,8 @@
-# coding: utf-8
-
 spec = Gem::Specification.new do |s|
   s.name = 'rails_redis_cache'
   s.version = '0.0.4'
 
-  s.author = 'Peter Schröder'
+  s.author = 'Peter Schroder'
   s.description = 'Rails 3 cache store implementation using Redis.'
   s.email = 'phoetmail@googlemail.com'
   s.homepage = 'http://github.com/phoet/rails_redis_cache'
@@ -20,4 +18,3 @@ spec = Gem::Specification.new do |s|
   s.add_dependency('activesupport', '~> 3.0.0')
   s.add_dependency('redis', '>= 2.2.2')
 end
-
