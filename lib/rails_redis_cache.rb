@@ -1,3 +1,5 @@
+# encoding: utf-8
+
 require 'active_support'
 require 'base64'
 require 'redis'
