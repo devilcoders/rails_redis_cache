@@ -71,6 +71,10 @@ module ActiveSupport
       def clear(options = nil)
         cleanup(options)
       end
+      
+      def reconnect
+        @redis.reconnect
+      end
 
       # ============================= basic store impl ==============================
 
